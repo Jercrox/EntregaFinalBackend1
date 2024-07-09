@@ -1,0 +1,142 @@
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+/* Estilo general del contenedor */
+div {
+	font-family: 'Arial', sans-serif;
+	margin: 20px;
+  }
+  
+  /* Estilo para el título de la lista de productos */
+  .title {
+	color: #333;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 20px;
+  }
+  
+  /* Estilos para card */
+  
+  .cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	justify-content: center;
+  }
+  
+  .card {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 16px;
+	width: 300px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  
+  .card h2 {
+	margin-top: 0;
+  }
+  
+  .card p {
+	margin-bottom: 10px;
+	line-height: 1.5;
+  }
+  
+  /* Estilo para el mensaje cuando no hay productos */
+  .no-products {
+	color: #ff0000;
+	text-align: center;
+  }
+
+  /* Estilo de formulario*/
+  .product-form {
+	font-family: 'Arial', sans-serif;
+	max-width: 800px;
+	margin: 0 auto;
+  }
+  
+  .form-row {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1px;
+	margin-top: 1px;
+	flex: 1; 
+  }
+  
+  .form-group:not(:last-child) {
+	margin-right: 10px; 
+  }
+  
+  .form-control {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  .btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+	color: white;
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+	padding: 8px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+	background-color: #0056b3;
+  }
+
+  .btn-secundary {
+	background-color: red;
+	border-color: red;
+	color: white;
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+	padding: 8px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .btn-secundary:hover {
+	background-color: red;
+  }
+
+  .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  margin: 0 5px; 
+}
+
+.pagination button:hover {
+  background-color: #0056b3; 
+}
+
+.pagination h4 {
+  margin: 0 10px; 
+}
+  
+  
+  

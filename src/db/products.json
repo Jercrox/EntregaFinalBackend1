@@ -1,0 +1,19 @@
+[
+	{
+		"title": "Caramelos másticables",
+		"description": "Estos caramelos son masticables y tienen el mismo sabor que los clásicos chupetines Pico Dulce pero con el tamaño ideal de los caramelos. Estos mismos vienen con sabores frutales, son libre de gluten y también son sin T.A.C.C. La bolsa de caramelos Pico Dulce tiene un peso de 500gr para que puedas compartir con quien sea, ideales para cumpleaños o fiestas ya que contienen 165 unidades cada bolsa.",
+		"price": 2100,
+		"code": "abc011",
+		"status": true,
+		"stock": 20,
+		"category": "Dulces",
+		"thumbnails": [
+			{
+				"maintype": "image/png",
+				"path": "/files/products/LHERITIER-CARAMELOS-PICO-DULCE-MASTICABLES.png",
+				"main": true
+			}
+		],
+		"pid": 1
+	}
+]
